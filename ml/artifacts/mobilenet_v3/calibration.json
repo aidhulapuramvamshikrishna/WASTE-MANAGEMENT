@@ -1,0 +1,13 @@
+{
+  "model_name": "mobilenet_v3",
+  "temperature": 0.8392,
+  "uncertain_threshold": 0.4,
+  "ui_uncertain_threshold": 0.585,
+  "ui_threshold_rule": "lowest max-softmax threshold (0.005 grid, from 0.40) where accuracy of kept val predictions >= 97%",
+  "ece_before": 0.1451,
+  "ece_after": 0.0795,
+  "coverage_at_threshold": 0.9606,
+  "val_acc_at_threshold": 0.9447,
+  "val_total_samples": 2842,
+  "n_bins": 15
+}

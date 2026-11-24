@@ -1,0 +1,11 @@
+{
+  "model_name": "efficientnet_b0",
+  "temperature": 0.8512,
+  "uncertain_threshold": 0.4,
+  "ece_before": 0.1286,
+  "ece_after": 0.072,
+  "coverage_at_threshold": 0.9638,
+  "val_acc_at_threshold": 0.9343,
+  "val_total_samples": 2842,
+  "n_bins": 15
+}

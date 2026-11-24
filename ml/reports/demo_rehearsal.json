@@ -1,0 +1,11 @@
+{
+  "1a. Backend Cold Start": 4.359075291999034,
+  "1b. Frontend Cold Start": 0.878032833999896,
+  "2. Confident Scan (cardboard)": 1.232229166000252,
+  "3. Uncertain Scan (safety gate)": 0.08246441700066498,
+  "4. Hazardous Scan (battery)": 0.06252320800012967,
+  "5. Heatmap & Photo Fetch": 0.010749499999292311,
+  "6. Feedback Submission": 0.006224125001608627,
+  "7. Model Diagnostics Navigation": 0.05231929199908336,
+  "Total Demonstration Runtime": 6.863338083998315
+}

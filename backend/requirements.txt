@@ -1,0 +1,14 @@
+# Backend API dependencies (pinned from active environment)
+fastapi==0.163.1
+uvicorn==0.54.0
+sqlmodel==0.0.50
+pydantic-settings==2.16.3
+Pillow==13.0.0
+slowapi==0.1.10
+python-multipart==0.0.33
+
+# Testing & Dev
+pytest==9.2.0
+httpx==0.28.1
+ruff==0.17.5
+pip-audit==2.10.1

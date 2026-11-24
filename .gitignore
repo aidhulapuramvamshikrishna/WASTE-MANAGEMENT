@@ -1,0 +1,56 @@
+# Data (large, licensed separately — rebuild with scripts/build_dataset.py)
+data/
+*.zip
+
+# ML artifacts: keep small result files, ignore weights
+ml/artifacts/**/*.pt
+ml/artifacts/**/*.pth
+ml/artifacts/**/*.onnx
+ml/runs/
+!ml/artifacts/**/metrics.json
+!ml/artifacts/**/confusion_matrix.json
+!ml/artifacts/**/confusion_matrix.png
+!ml/artifacts/**/history.csv
+!ml/artifacts/**/calibration.json
+!ml/artifacts/**/model_card.json
+
+# Backend runtime
+backend/storage/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Node / Next
+node_modules/
+.next/
+out/
+coverage/
+frontend/test-results/
+frontend/playwright-report/
+frontend/tests/lighthouse-*.json
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.pnpm-store/
+
+# Agent instructions, workflows, and prompts
+AGENTS.md
+**/AGENTS.md
+KICKOFF_PROMPT.md
+.agents/

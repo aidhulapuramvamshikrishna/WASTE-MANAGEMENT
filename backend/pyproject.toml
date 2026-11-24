@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ecosort-backend"
+version = "0.1.0"
+description = "FastAPI backend for EcoSort waste classification"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "B", "C4", "UP"]
+ignore = [
+    "B008",  # FastAPI Depends, Query, File in route parameters
+    "B904",  # Exception chaining in handlers
+    "UP007", # Use X | Y for type annotations (SQLModel compatibility)
+    "E501",  # Line too long (handled by formatter)
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["app"]

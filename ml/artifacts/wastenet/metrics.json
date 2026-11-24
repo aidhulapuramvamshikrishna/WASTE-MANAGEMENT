@@ -1,0 +1,136 @@
+{
+  "model_name": "wastenet",
+  "n_test": 2843,
+  "accuracy": 0.7587,
+  "macro_f1": 0.7441,
+  "weighted_f1": 0.7603,
+  "top3_accuracy": 0.9216,
+  "bootstrap_ci_95": {
+    "accuracy": {
+      "low": 0.7439,
+      "high": 0.7745
+    },
+    "macro_f1": {
+      "low": 0.7272,
+      "high": 0.7599
+    }
+  },
+  "stream_accuracy": 0.8832,
+  "hazard_miss_rate": 0.1736,
+  "hazard_miss_count": 117,
+  "hazard_total": 674,
+  "uncertain_threshold": 0.62,
+  "temperature": 0.932,
+  "coverage_at_threshold": 0.6606,
+  "accuracy_above_threshold": 0.9004,
+  "cpu_latency_ms_p50": 8.54,
+  "cpu_latency_ms_p95": 10.49,
+  "cpu_benchmark_info": {
+    "cpu_model": "Apple M2",
+    "torch_version": "2.15.0",
+    "threads": 4,
+    "warmup_runs": 50,
+    "timed_runs": 200
+  },
+  "params": 3391212,
+  "size_mb": 12.97,
+  "per_class": {
+    "battery": {
+      "precision": 0.6882,
+      "recall": 0.8298,
+      "f1": 0.7524,
+      "support": 141
+    },
+    "cardboard": {
+      "precision": 0.8922,
+      "recall": 0.8,
+      "f1": 0.8436,
+      "support": 300
+    },
+    "e_waste": {
+      "precision": 0.7626,
+      "recall": 0.6533,
+      "f1": 0.7038,
+      "support": 300
+    },
+    "glass": {
+      "precision": 0.8303,
+      "recall": 0.75,
+      "f1": 0.7881,
+      "support": 300
+    },
+    "mask_glove": {
+      "precision": 0.6822,
+      "recall": 0.7788,
+      "f1": 0.7273,
+      "support": 113
+    },
+    "medicine_syringe": {
+      "precision": 0.5235,
+      "recall": 0.65,
+      "f1": 0.5799,
+      "support": 120
+    },
+    "metal": {
+      "precision": 0.6923,
+      "recall": 0.75,
+      "f1": 0.72,
+      "support": 300
+    },
+    "misc_trash": {
+      "precision": 0.5714,
+      "recall": 0.7579,
+      "f1": 0.6516,
+      "support": 95
+    },
+    "organic": {
+      "precision": 0.8815,
+      "recall": 0.9234,
+      "f1": 0.902,
+      "support": 274
+    },
+    "paper": {
+      "precision": 0.7758,
+      "recall": 0.7267,
+      "f1": 0.7504,
+      "support": 300
+    },
+    "plastic": {
+      "precision": 0.7467,
+      "recall": 0.7567,
+      "f1": 0.7517,
+      "support": 300
+    },
+    "textile": {
+      "precision": 0.7927,
+      "recall": 0.7267,
+      "f1": 0.7583,
+      "support": 300
+    }
+  },
+  "per_source_accuracy": {
+    "garbage12": {
+      "accuracy": 0.8061,
+      "correct": 557,
+      "total": 691
+    },
+    "realwaste": {
+      "accuracy": 0.8235,
+      "correct": 602,
+      "total": 731
+    },
+    "trashbox": {
+      "accuracy": 0.6567,
+      "correct": 683,
+      "total": 1040
+    },
+    "trashnet": {
+      "accuracy": 0.8268,
+      "correct": 315,
+      "total": 381
+    }
+  },
+  "git_commit": "43e6b75",
+  "timestamp": "2026-11-17T18:17:11.921137+00:00",
+  "device": "cpu"
+}

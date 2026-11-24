@@ -1,0 +1,11 @@
+{
+  "model_name": "wastenet",
+  "temperature": 0.932,
+  "uncertain_threshold": 0.62,
+  "ece_before": 0.0681,
+  "ece_after": 0.0437,
+  "coverage_at_threshold": 0.683,
+  "val_acc_at_threshold": 0.9026,
+  "val_total_samples": 2842,
+  "n_bins": 15
+}

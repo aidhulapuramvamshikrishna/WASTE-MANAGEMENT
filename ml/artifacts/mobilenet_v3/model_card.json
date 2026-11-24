@@ -1,0 +1,44 @@
+{
+  "name": "mobilenet_v3",
+  "display_name": "MobileNetV3-Large",
+  "arch": "MobileNetV3-Large (Transfer)",
+  "num_classes": 12,
+  "class_names": [
+    "battery",
+    "cardboard",
+    "e_waste",
+    "glass",
+    "mask_glove",
+    "medicine_syringe",
+    "metal",
+    "misc_trash",
+    "organic",
+    "paper",
+    "plastic",
+    "textile"
+  ],
+  "img_size": 224,
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "gradcam_layer": "features[-1]",
+  "weights_file": "best.pt",
+  "trained_from_scratch": false,
+  "created_at": "2026-11-18T07:25:30.120814+00:00",
+  "temperature": 0.8392,
+  "uncertain_threshold": 0.4,
+  "ui_uncertain_threshold": 0.585,
+  "ui_threshold_rule": "lowest max-softmax threshold (0.005 grid, from 0.40) where accuracy of kept val predictions >= 97%",
+  "test_accuracy": 0.9244,
+  "test_macro_f1": 0.9181,
+  "params": 4217404,
+  "size_mb": 16.27,
+  "cpu_latency_ms_p50": 55.54
+}

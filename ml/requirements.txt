@@ -1,0 +1,15 @@
+# ML dependencies (pinned from active environment)
+torch==2.15.0
+torchvision==0.29.2
+numpy==2.5.5
+pandas==3.1.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+PyYAML==6.0.3
+tqdm==4.70.1
+Pillow==13.0.0
+
+# Dev & testing
+pytest==9.2.0
+ruff==0.17.5
+pip-audit==2.10.1

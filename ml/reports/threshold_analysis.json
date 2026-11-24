@@ -1,0 +1,85 @@
+{
+  "model": "mobilenet_v3",
+  "split": "val",
+  "n": 2842,
+  "temperature": 0.8392,
+  "rule": "lowest max-softmax threshold (0.005 grid, from 0.40) where accuracy of kept val predictions >= 97%",
+  "chosen_ui_threshold": 0.585,
+  "context": "Chosen AFTER test evaluation, on VALIDATION data only, prompted by a real-world out-of-distribution example (laptop case on wooden bench -> cardboard @ 49%). Test-set metrics in metrics.json are unchanged.",
+  "wrong_conf_quartiles": [
+    0.378,
+    0.505,
+    0.651
+  ],
+  "correct_conf_quartiles": [
+    0.853,
+    0.925,
+    0.958
+  ],
+  "table": [
+    {
+      "threshold": 0.4,
+      "coverage": 0.9606,
+      "kept_accuracy": 0.9447,
+      "correct_flagged": 50,
+      "wrong_caught": 62,
+      "wrong_total": 213
+    },
+    {
+      "threshold": 0.45,
+      "coverage": 0.9441,
+      "kept_accuracy": 0.9504,
+      "correct_flagged": 79,
+      "wrong_caught": 80,
+      "wrong_total": 213
+    },
+    {
+      "threshold": 0.5,
+      "coverage": 0.9219,
+      "kept_accuracy": 0.9584,
+      "correct_flagged": 118,
+      "wrong_caught": 104,
+      "wrong_total": 213
+    },
+    {
+      "threshold": 0.55,
+      "coverage": 0.9029,
+      "kept_accuracy": 0.9653,
+      "correct_flagged": 152,
+      "wrong_caught": 124,
+      "wrong_total": 213
+    },
+    {
+      "threshold": 0.585,
+      "coverage": 0.8909,
+      "kept_accuracy": 0.9712,
+      "correct_flagged": 170,
+      "wrong_caught": 140,
+      "wrong_total": 213
+    },
+    {
+      "threshold": 0.6,
+      "coverage": 0.8839,
+      "kept_accuracy": 0.9725,
+      "correct_flagged": 186,
+      "wrong_caught": 144,
+      "wrong_total": 213
+    },
+    {
+      "threshold": 0.65,
+      "coverage": 0.8593,
+      "kept_accuracy": 0.9779,
+      "correct_flagged": 241,
+      "wrong_caught": 159,
+      "wrong_total": 213
+    },
+    {
+      "threshold": 0.7,
+      "coverage": 0.8325,
+      "kept_accuracy": 0.9835,
+      "correct_flagged": 302,
+      "wrong_caught": 174,
+      "wrong_total": 213
+    }
+  ]
+}

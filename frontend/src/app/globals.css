@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-rule: var(--rule);
+  --color-hivis: var(--hivis);
+  --color-panel-dark: var(--panel-dark);
+  --color-wet: var(--wet);
+  --color-dry: var(--dry);
+  --color-sanitary: var(--sanitary);
+  --color-special: var(--special);
+  --color-caution: var(--caution);
+
+  --font-sans: var(--font-archivo);
+  --font-mono: var(--font-jetbrains-mono);
+}
+
+:root {
+  /* EcoSort Field Instrument Tokens (DESIGN.md §3) */
+  --paper: #F3F2EC;
+  --surface: #FFFFFF;
+  --ink: #0E1A16;
+  --ink-2: #4A5650;
+  --rule: #D9D8CF;
+  --hivis: #D4F23A;
+  --panel-dark: #0E1A16;
+  --wet: #1E8E4E;
+  --dry: #1F5FD1;
+  --sanitary: #C25A12;
+  --special: #C0262D;
+  --caution: #9A6A00;
+
+  /* UI Base Variables */
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --card: var(--surface);
+  --card-foreground: var(--ink);
+  --popover: var(--surface);
+  --popover-foreground: var(--ink);
+  --primary: var(--hivis);
+  --primary-foreground: var(--ink);
+  --secondary: var(--surface);
+  --secondary-foreground: var(--ink);
+  --muted: #E5E4DC;
+  --muted-foreground: var(--ink-2);
+  --accent: var(--hivis);
+  --accent-foreground: var(--ink);
+  --destructive: var(--special);
+  --border: var(--rule);
+  --input: var(--rule);
+  --ring: var(--hivis);
+  --radius: 2px;
+}
+
+.dark {
+  --paper: #0B1210;
+  --surface: #121B18;
+  --ink: #ECEFEA;
+  --ink-2: #A3ADA7;
+  --rule: #24302B;
+  --hivis: #D4F23A;
+  --panel-dark: #060A09;
+  --wet: #3FCB7E;
+  --dry: #6EA2FF;
+  --sanitary: #F2994A;
+  --special: #FF6B6B;
+  --caution: #F5C451;
+
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --card: var(--surface);
+  --card-foreground: var(--ink);
+  --popover: var(--surface);
+  --popover-foreground: var(--ink);
+  --primary: var(--hivis);
+  --primary-foreground: #0E1A16;
+  --secondary: var(--surface);
+  --secondary-foreground: var(--ink);
+  --muted: #1A2521;
+  --muted-foreground: var(--ink-2);
+  --accent: var(--hivis);
+  --accent-foreground: #0E1A16;
+  --destructive: var(--special);
+  --border: var(--rule);
+  --input: var(--rule);
+  --ring: var(--hivis);
+}
+
+* {
+  border-color: var(--border);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-feature-settings: "rlig" 1, "calt" 1;
+}
+
+@keyframes scan-sweep {
+  0% {
+    top: 0%;
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    top: 100%;
+    opacity: 0.8;
+  }
+}
+
+.animate-scan {
+  animation: scan-sweep 2s ease-in-out infinite alternate;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-scan {
+    animation: none;
+    display: none;
+  }
+}

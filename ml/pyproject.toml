@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wasteml"
+version = "0.1.0"
+description = "PyTorch ML pipeline for municipal waste classification"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "torch>=2.4.0",
+    "torchvision>=0.19.0",
+    "numpy>=1.26.0",
+    "pandas>=2.2.0",
+    "scikit-learn>=1.5.0",
+    "matplotlib>=3.9.0",
+    "PyYAML>=6.0",
+    "tqdm>=4.66.0",
+    "Pillow>=10.4.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.0",
+    "ruff>=0.6.0",
+    "pip-audit>=2.7.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+extend-exclude = ["notebooks"]
+

@@ -1,0 +1,440 @@
+{
+  "models": {
+    "wastenet": {
+      "model_name": "wastenet",
+      "n_test": 2843,
+      "accuracy": 0.7587,
+      "macro_f1": 0.7441,
+      "weighted_f1": 0.7603,
+      "top3_accuracy": 0.9216,
+      "bootstrap_ci_95": {
+        "accuracy": {
+          "low": 0.7439,
+          "high": 0.7745
+        },
+        "macro_f1": {
+          "low": 0.7272,
+          "high": 0.7599
+        }
+      },
+      "stream_accuracy": 0.8832,
+      "hazard_miss_rate": 0.1736,
+      "hazard_miss_count": 117,
+      "hazard_total": 674,
+      "uncertain_threshold": 0.62,
+      "temperature": 0.932,
+      "coverage_at_threshold": 0.6606,
+      "accuracy_above_threshold": 0.9004,
+      "cpu_latency_ms_p50": 8.54,
+      "cpu_latency_ms_p95": 10.49,
+      "cpu_benchmark_info": {
+        "cpu_model": "Apple M2",
+        "torch_version": "2.15.0",
+        "threads": 4,
+        "warmup_runs": 50,
+        "timed_runs": 200
+      },
+      "params": 3391212,
+      "size_mb": 12.97,
+      "per_class": {
+        "battery": {
+          "precision": 0.6882,
+          "recall": 0.8298,
+          "f1": 0.7524,
+          "support": 141
+        },
+        "cardboard": {
+          "precision": 0.8922,
+          "recall": 0.8,
+          "f1": 0.8436,
+          "support": 300
+        },
+        "e_waste": {
+          "precision": 0.7626,
+          "recall": 0.6533,
+          "f1": 0.7038,
+          "support": 300
+        },
+        "glass": {
+          "precision": 0.8303,
+          "recall": 0.75,
+          "f1": 0.7881,
+          "support": 300
+        },
+        "mask_glove": {
+          "precision": 0.6822,
+          "recall": 0.7788,
+          "f1": 0.7273,
+          "support": 113
+        },
+        "medicine_syringe": {
+          "precision": 0.5235,
+          "recall": 0.65,
+          "f1": 0.5799,
+          "support": 120
+        },
+        "metal": {
+          "precision": 0.6923,
+          "recall": 0.75,
+          "f1": 0.72,
+          "support": 300
+        },
+        "misc_trash": {
+          "precision": 0.5714,
+          "recall": 0.7579,
+          "f1": 0.6516,
+          "support": 95
+        },
+        "organic": {
+          "precision": 0.8815,
+          "recall": 0.9234,
+          "f1": 0.902,
+          "support": 274
+        },
+        "paper": {
+          "precision": 0.7758,
+          "recall": 0.7267,
+          "f1": 0.7504,
+          "support": 300
+        },
+        "plastic": {
+          "precision": 0.7467,
+          "recall": 0.7567,
+          "f1": 0.7517,
+          "support": 300
+        },
+        "textile": {
+          "precision": 0.7927,
+          "recall": 0.7267,
+          "f1": 0.7583,
+          "support": 300
+        }
+      },
+      "per_source_accuracy": {
+        "garbage12": {
+          "accuracy": 0.8061,
+          "correct": 557,
+          "total": 691
+        },
+        "realwaste": {
+          "accuracy": 0.8235,
+          "correct": 602,
+          "total": 731
+        },
+        "trashbox": {
+          "accuracy": 0.6567,
+          "correct": 683,
+          "total": 1040
+        },
+        "trashnet": {
+          "accuracy": 0.8268,
+          "correct": 315,
+          "total": 381
+        }
+      },
+      "git_commit": "43e6b75",
+      "timestamp": "2026-11-17T18:17:11.921137+00:00",
+      "device": "cpu"
+    },
+    "mobilenet_v3": {
+      "model_name": "mobilenet_v3",
+      "n_test": 2843,
+      "accuracy": 0.9244,
+      "macro_f1": 0.9181,
+      "weighted_f1": 0.9245,
+      "top3_accuracy": 0.9852,
+      "bootstrap_ci_95": {
+        "accuracy": {
+          "low": 0.9142,
+          "high": 0.9339
+        },
+        "macro_f1": {
+          "low": 0.9074,
+          "high": 0.9284
+        }
+      },
+      "stream_accuracy": 0.9775,
+      "hazard_miss_rate": 0.0312,
+      "hazard_miss_count": 21,
+      "hazard_total": 674,
+      "uncertain_threshold": 0.4,
+      "temperature": 0.8392,
+      "coverage_at_threshold": 0.9595,
+      "accuracy_above_threshold": 0.9461,
+      "cpu_latency_ms_p50": 54.49,
+      "cpu_latency_ms_p95": 61.81,
+      "cpu_benchmark_info": {
+        "cpu_model": "Apple M2",
+        "torch_version": "2.15.0",
+        "threads": 4,
+        "warmup_runs": 50,
+        "timed_runs": 200
+      },
+      "params": 4217404,
+      "size_mb": 16.27,
+      "per_class": {
+        "battery": {
+          "precision": 0.9452,
+          "recall": 0.9787,
+          "f1": 0.9617,
+          "support": 141
+        },
+        "cardboard": {
+          "precision": 0.93,
+          "recall": 0.93,
+          "f1": 0.93,
+          "support": 300
+        },
+        "e_waste": {
+          "precision": 0.9532,
+          "recall": 0.95,
+          "f1": 0.9516,
+          "support": 300
+        },
+        "glass": {
+          "precision": 0.9178,
+          "recall": 0.93,
+          "f1": 0.9238,
+          "support": 300
+        },
+        "mask_glove": {
+          "precision": 0.9375,
+          "recall": 0.9292,
+          "f1": 0.9333,
+          "support": 113
+        },
+        "medicine_syringe": {
+          "precision": 0.874,
+          "recall": 0.925,
+          "f1": 0.8988,
+          "support": 120
+        },
+        "metal": {
+          "precision": 0.89,
+          "recall": 0.89,
+          "f1": 0.89,
+          "support": 300
+        },
+        "misc_trash": {
+          "precision": 0.7364,
+          "recall": 0.8526,
+          "f1": 0.7902,
+          "support": 95
+        },
+        "organic": {
+          "precision": 0.9715,
+          "recall": 0.9964,
+          "f1": 0.9838,
+          "support": 274
+        },
+        "paper": {
+          "precision": 0.9276,
+          "recall": 0.8967,
+          "f1": 0.9119,
+          "support": 300
+        },
+        "plastic": {
+          "precision": 0.911,
+          "recall": 0.8533,
+          "f1": 0.8812,
+          "support": 300
+        },
+        "textile": {
+          "precision": 0.9727,
+          "recall": 0.95,
+          "f1": 0.9612,
+          "support": 300
+        }
+      },
+      "per_source_accuracy": {
+        "garbage12": {
+          "accuracy": 0.9768,
+          "correct": 675,
+          "total": 691
+        },
+        "realwaste": {
+          "accuracy": 0.9083,
+          "correct": 664,
+          "total": 731
+        },
+        "trashbox": {
+          "accuracy": 0.9038,
+          "correct": 940,
+          "total": 1040
+        },
+        "trashnet": {
+          "accuracy": 0.916,
+          "correct": 349,
+          "total": 381
+        }
+      },
+      "git_commit": "43e6b75",
+      "timestamp": "2026-11-17T18:19:49.440869+00:00",
+      "device": "cpu"
+    },
+    "efficientnet_b0": {
+      "model_name": "efficientnet_b0",
+      "n_test": 2843,
+      "accuracy": 0.9145,
+      "macro_f1": 0.9063,
+      "weighted_f1": 0.9144,
+      "top3_accuracy": 0.9807,
+      "bootstrap_ci_95": {
+        "accuracy": {
+          "low": 0.9043,
+          "high": 0.924
+        },
+        "macro_f1": {
+          "low": 0.8946,
+          "high": 0.9168
+        }
+      },
+      "stream_accuracy": 0.9673,
+      "hazard_miss_rate": 0.0312,
+      "hazard_miss_count": 21,
+      "hazard_total": 674,
+      "uncertain_threshold": 0.4,
+      "temperature": 0.8512,
+      "coverage_at_threshold": 0.9655,
+      "accuracy_above_threshold": 0.9326,
+      "cpu_latency_ms_p50": 115.43,
+      "cpu_latency_ms_p95": 134.94,
+      "cpu_benchmark_info": {
+        "cpu_model": "Apple M2",
+        "torch_version": "2.15.0",
+        "threads": 4,
+        "warmup_runs": 50,
+        "timed_runs": 200
+      },
+      "params": 4022920,
+      "size_mb": 15.61,
+      "per_class": {
+        "battery": {
+          "precision": 0.8961,
+          "recall": 0.9787,
+          "f1": 0.9356,
+          "support": 141
+        },
+        "cardboard": {
+          "precision": 0.9313,
+          "recall": 0.9033,
+          "f1": 0.9171,
+          "support": 300
+        },
+        "e_waste": {
+          "precision": 0.9139,
+          "recall": 0.92,
+          "f1": 0.9169,
+          "support": 300
+        },
+        "glass": {
+          "precision": 0.9517,
+          "recall": 0.92,
+          "f1": 0.9356,
+          "support": 300
+        },
+        "mask_glove": {
+          "precision": 0.8889,
+          "recall": 0.9204,
+          "f1": 0.9043,
+          "support": 113
+        },
+        "medicine_syringe": {
+          "precision": 0.8828,
+          "recall": 0.9417,
+          "f1": 0.9113,
+          "support": 120
+        },
+        "metal": {
+          "precision": 0.8774,
+          "recall": 0.9067,
+          "f1": 0.8918,
+          "support": 300
+        },
+        "misc_trash": {
+          "precision": 0.7526,
+          "recall": 0.7684,
+          "f1": 0.7604,
+          "support": 95
+        },
+        "organic": {
+          "precision": 0.9509,
+          "recall": 0.9891,
+          "f1": 0.9696,
+          "support": 274
+        },
+        "paper": {
+          "precision": 0.9178,
+          "recall": 0.8933,
+          "f1": 0.9054,
+          "support": 300
+        },
+        "plastic": {
+          "precision": 0.9,
+          "recall": 0.84,
+          "f1": 0.869,
+          "support": 300
+        },
+        "textile": {
+          "precision": 0.963,
+          "recall": 0.9533,
+          "f1": 0.9581,
+          "support": 300
+        }
+      },
+      "per_source_accuracy": {
+        "garbage12": {
+          "accuracy": 0.9653,
+          "correct": 667,
+          "total": 691
+        },
+        "realwaste": {
+          "accuracy": 0.8892,
+          "correct": 650,
+          "total": 731
+        },
+        "trashbox": {
+          "accuracy": 0.899,
+          "correct": 935,
+          "total": 1040
+        },
+        "trashnet": {
+          "accuracy": 0.9134,
+          "correct": 348,
+          "total": 381
+        }
+      },
+      "git_commit": "43e6b75",
+      "timestamp": "2026-11-17T18:24:27.016140+00:00",
+      "device": "cpu"
+    }
+  },
+  "mcnemar_tests": {
+    "wastenet_vs_mobilenet_v3": {
+      "contingency_table": {
+        "both_wrong (n00)": 144,
+        "a_wrong_b_correct (b/n01)": 542,
+        "a_correct_b_wrong (c/n10)": 71,
+        "both_correct (n11)": 2086
+      },
+      "discordant_pairs": 613,
+      "chi2_statistic": 360.3589,
+      "chi2_p_value": 0.0,
+      "exact_p_value": 9.509420818152071e-91,
+      "statistically_significant": true
+    },
+    "mobilenet_v3_vs_efficientnet_b0": {
+      "contingency_table": {
+        "both_wrong (n00)": 130,
+        "a_wrong_b_correct (b/n01)": 85,
+        "a_correct_b_wrong (c/n10)": 113,
+        "both_correct (n11)": 2515
+      },
+      "discordant_pairs": 198,
+      "chi2_statistic": 3.6818,
+      "chi2_p_value": 0.055008833629265785,
+      "exact_p_value": 0.05473387935217153,
+      "statistically_significant": false
+    }
+  }
+}

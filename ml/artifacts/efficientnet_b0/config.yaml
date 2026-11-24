@@ -1,0 +1,16 @@
+model_name: efficientnet_b0
+pretrained: true
+epochs: 25
+freeze_epochs: 3
+learning_rate: 0.001
+unfreeze_lr: 0.0003
+backbone_lr_ratio: 0.1
+batch_size: 64
+weight_decay: 0.0001
+early_stop_patience: 8
+label_smoothing: 0.1
+use_sampler: false
+num_workers: 4
+num_classes: 12
+warmup_epochs: 1
+seed: 42

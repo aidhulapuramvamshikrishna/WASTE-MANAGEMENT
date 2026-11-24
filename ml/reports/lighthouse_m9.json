@@ -1,0 +1,62 @@
+{
+  "/": {
+    "label": "/ (Home Viewfinder)",
+    "url": "http://127.0.0.1:3000/",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best_practices": 100,
+      "seo": 100
+    }
+  },
+  "/about": {
+    "label": "/about (System & Dataset)",
+    "url": "http://127.0.0.1:3000/about",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best_practices": 100,
+      "seo": 100
+    }
+  },
+  "/scan/928ea886b904493c9d82a4f109db3086": {
+    "label": "/scan/928ea886... (Grad-CAM Result)",
+    "url": "http://127.0.0.1:3000/scan/928ea886b904493c9d82a4f109db3086",
+    "scores": {
+      "performance": 84,
+      "accessibility": 100,
+      "best_practices": 100,
+      "seo": 100
+    }
+  },
+  "/model": {
+    "label": "/model (Model Comparison)",
+    "url": "http://127.0.0.1:3000/model",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best_practices": 100,
+      "seo": 100
+    }
+  },
+  "/insights": {
+    "label": "/insights (Municipal Insights)",
+    "url": "http://127.0.0.1:3000/insights",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best_practices": 100,
+      "seo": 100
+    }
+  },
+  "/history": {
+    "label": "/history (Specimen History)",
+    "url": "http://127.0.0.1:3000/history",
+    "scores": {
+      "performance": 88,
+      "accessibility": 100,
+      "best_practices": 100,
+      "seo": 100
+    }
+  }
+}

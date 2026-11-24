@@ -1,0 +1,146 @@
+[
+  {
+    "filename": "battery_1.jpg",
+    "class": "battery",
+    "stream": "special_care",
+    "original_file": "battery_garbage12_00800.jpg"
+  },
+  {
+    "filename": "battery_2.jpg",
+    "class": "battery",
+    "stream": "special_care",
+    "original_file": "battery_garbage12_00810.jpg"
+  },
+  {
+    "filename": "cardboard_1.jpg",
+    "class": "cardboard",
+    "stream": "dry",
+    "original_file": "cardboard_garbage12_01706.jpg"
+  },
+  {
+    "filename": "cardboard_2.jpg",
+    "class": "cardboard",
+    "stream": "dry",
+    "original_file": "cardboard_garbage12_01829.jpg"
+  },
+  {
+    "filename": "e_waste_1.jpg",
+    "class": "e_waste",
+    "stream": "special_care",
+    "original_file": "e_waste_trashbox_01700.jpg"
+  },
+  {
+    "filename": "e_waste_2.jpg",
+    "class": "e_waste",
+    "stream": "special_care",
+    "original_file": "e_waste_trashbox_01710.jpg"
+  },
+  {
+    "filename": "glass_1.jpg",
+    "class": "glass",
+    "stream": "dry",
+    "original_file": "glass_garbage12_01701.jpg"
+  },
+  {
+    "filename": "glass_2.jpg",
+    "class": "glass",
+    "stream": "dry",
+    "original_file": "glass_garbage12_01750.jpg"
+  },
+  {
+    "filename": "mask_glove_1.jpg",
+    "class": "mask_glove",
+    "stream": "sanitary",
+    "original_file": "mask_glove_trashbox_00636.jpg"
+  },
+  {
+    "filename": "mask_glove_2.jpg",
+    "class": "mask_glove",
+    "stream": "sanitary",
+    "original_file": "mask_glove_trashbox_00646.jpg"
+  },
+  {
+    "filename": "medicine_syringe_1.jpg",
+    "class": "medicine_syringe",
+    "stream": "special_care",
+    "original_file": "medicine_syringe_trashbox_00681.jpg"
+  },
+  {
+    "filename": "medicine_syringe_2.jpg",
+    "class": "medicine_syringe",
+    "stream": "special_care",
+    "original_file": "medicine_syringe_trashbox_00691.jpg"
+  },
+  {
+    "filename": "metal_1.jpg",
+    "class": "metal",
+    "stream": "dry",
+    "original_file": "metal_garbage12_01704.jpg"
+  },
+  {
+    "filename": "metal_2.jpg",
+    "class": "metal",
+    "stream": "dry",
+    "original_file": "metal_realwaste_01700.jpg"
+  },
+  {
+    "filename": "misc_trash_1.jpg",
+    "class": "misc_trash",
+    "stream": "dry",
+    "original_file": "misc_trash_realwaste_00537.jpg"
+  },
+  {
+    "filename": "misc_trash_2.jpg",
+    "class": "misc_trash",
+    "stream": "dry",
+    "original_file": "misc_trash_realwaste_00549.jpg"
+  },
+  {
+    "filename": "organic_1.jpg",
+    "class": "organic",
+    "stream": "wet",
+    "original_file": "organic_garbage12_01554.jpg"
+  },
+  {
+    "filename": "organic_2.jpg",
+    "class": "organic",
+    "stream": "wet",
+    "original_file": "organic_garbage12_01574.jpg"
+  },
+  {
+    "filename": "paper_1.jpg",
+    "class": "paper",
+    "stream": "dry",
+    "original_file": "paper_garbage12_01707.jpg"
+  },
+  {
+    "filename": "paper_2.jpg",
+    "class": "paper",
+    "stream": "dry",
+    "original_file": "paper_garbage12_01839.jpg"
+  },
+  {
+    "filename": "plastic_1.jpg",
+    "class": "plastic",
+    "stream": "dry",
+    "original_file": "plastic_garbage12_01717.jpg"
+  },
+  {
+    "filename": "plastic_2.jpg",
+    "class": "plastic",
+    "stream": "dry",
+    "original_file": "plastic_garbage12_01934.jpg"
+  },
+  {
+    "filename": "textile_1.jpg",
+    "class": "textile",
+    "stream": "dry",
+    "original_file": "textile_garbage12_01700.jpg"
+  },
+  {
+    "filename": "textile_2.jpg",
+    "class": "textile",
+    "stream": "dry",
+    "original_file": "textile_garbage12_01712.jpg"
+  }
+]

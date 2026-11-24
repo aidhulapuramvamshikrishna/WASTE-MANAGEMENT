@@ -1,0 +1,142 @@
+{
+  "model_name": "mobilenet_v3",
+  "n_test": 2843,
+  "accuracy": 0.9244,
+  "macro_f1": 0.9181,
+  "weighted_f1": 0.9245,
+  "top3_accuracy": 0.9852,
+  "bootstrap_ci_95": {
+    "accuracy": {
+      "low": 0.9142,
+      "high": 0.9339
+    },
+    "macro_f1": {
+      "low": 0.9074,
+      "high": 0.9284
+    }
+  },
+  "stream_accuracy": 0.9775,
+  "hazard_miss_rate": 0.0312,
+  "hazard_miss_count": 21,
+  "hazard_total": 674,
+  "uncertain_threshold": 0.4,
+  "temperature": 0.8392,
+  "coverage_at_threshold": 0.9595,
+  "accuracy_above_threshold": 0.9461,
+  "ui_threshold_eval_test": {
+    "threshold": 0.585,
+    "coverage": 0.8815,
+    "accuracy_above_threshold": 0.9717,
+    "note": "Evaluated post-hoc on test set using validation-chosen ui_uncertain_threshold (0.585). Core test metrics above remain untouched."
+  },
+  "cpu_latency_ms_p50": 55.54,
+  "cpu_latency_ms_p95": 58.69,
+  "cpu_benchmark_info": {
+    "cpu_model": "Apple M2",
+    "torch_version": "2.15.0",
+    "threads": 4,
+    "warmup_runs": 50,
+    "timed_runs": 200
+  },
+  "params": 4217404,
+  "size_mb": 16.27,
+  "per_class": {
+    "battery": {
+      "precision": 0.9452,
+      "recall": 0.9787,
+      "f1": 0.9617,
+      "support": 141
+    },
+    "cardboard": {
+      "precision": 0.93,
+      "recall": 0.93,
+      "f1": 0.93,
+      "support": 300
+    },
+    "e_waste": {
+      "precision": 0.9532,
+      "recall": 0.95,
+      "f1": 0.9516,
+      "support": 300
+    },
+    "glass": {
+      "precision": 0.9178,
+      "recall": 0.93,
+      "f1": 0.9238,
+      "support": 300
+    },
+    "mask_glove": {
+      "precision": 0.9375,
+      "recall": 0.9292,
+      "f1": 0.9333,
+      "support": 113
+    },
+    "medicine_syringe": {
+      "precision": 0.874,
+      "recall": 0.925,
+      "f1": 0.8988,
+      "support": 120
+    },
+    "metal": {
+      "precision": 0.89,
+      "recall": 0.89,
+      "f1": 0.89,
+      "support": 300
+    },
+    "misc_trash": {
+      "precision": 0.7364,
+      "recall": 0.8526,
+      "f1": 0.7902,
+      "support": 95
+    },
+    "organic": {
+      "precision": 0.9715,
+      "recall": 0.9964,
+      "f1": 0.9838,
+      "support": 274
+    },
+    "paper": {
+      "precision": 0.9276,
+      "recall": 0.8967,
+      "f1": 0.9119,
+      "support": 300
+    },
+    "plastic": {
+      "precision": 0.911,
+      "recall": 0.8533,
+      "f1": 0.8812,
+      "support": 300
+    },
+    "textile": {
+      "precision": 0.9727,
+      "recall": 0.95,
+      "f1": 0.9612,
+      "support": 300
+    }
+  },
+  "per_source_accuracy": {
+    "garbage12": {
+      "accuracy": 0.9768,
+      "correct": 675,
+      "total": 691
+    },
+    "realwaste": {
+      "accuracy": 0.9083,
+      "correct": 664,
+      "total": 731
+    },
+    "trashbox": {
+      "accuracy": 0.9038,
+      "correct": 940,
+      "total": 1040
+    },
+    "trashnet": {
+      "accuracy": 0.916,
+      "correct": 349,
+      "total": 381
+    }
+  },
+  "git_commit": "0dc880c",
+  "timestamp": "2026-11-18T07:25:29.655683+00:00",
+  "device": "cpu"
+}
